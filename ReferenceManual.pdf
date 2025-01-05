@@ -39,6 +39,11 @@ endobj
             /BaseFont /Times-Roman
             /Subtype /Type1
         >>
+        /FSim <<
+            /Type /Font
+            /BaseFont /SimSum
+            /Subtype /Type0
+        >>
     >>
 >>
 endobj
