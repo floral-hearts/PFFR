@@ -8,11 +8,14 @@ endobj
 
 2 0 obj <<
     /Type /Pages
-    /Count 1
+    /Count 2
     /Kids [3 0 R]
 >>
 endobj
 
+%%%%         %%%%
+%%%% Courier %%%%
+%%%%         %%%%
 
 3 0 obj <<
     /Type /Page
@@ -25,7 +28,7 @@ endobj
 
 4 0 obj <<
     /Font <<
-        /FAG-B <<
+        /F <<
             /Type /Font
             /BaseFont /Courier
             /Subtype /Type1
@@ -41,6 +44,41 @@ BT
     1 0 0 1 50 20 Tm
     /FAG-B 50 Tf
     (Courier) Tj
+ET
+endstream
+endobj
+
+%%%%             %%%%
+%%%% Times-Roman %%%%
+%%%%             %%%%
+
+6 0 obj <<
+    /Type /Page
+    /MediaBox [0 0 612 90]
+    /Parent 2 0 R
+    /Resources 7 0 R
+    /Contents 8 0 R
+>>
+endobj
+
+7 0 obj <<
+    /Font <<
+        /F <<
+            /Type /Font
+            /BaseFont /Times-Roman
+            /Subtype /Type1
+        >>
+    >>
+>>
+endobj
+
+8 0 obj <<
+>>
+stream
+BT
+    1 0 0 1 50 20 Tm
+    /F 50 Tf
+    (Times-Roman) Tj
 ET
 endstream
 endobj
