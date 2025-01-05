@@ -57,11 +57,11 @@ endobj
 >>
 stream
 BT
-    1 0 0 1 100 550 Tm
-    /FAGD 90 Tf
+    1 0 0 1 50 550 Tm
+    /FAGD 50 Tf
     (AGaramond-Semilbold) Tj
-    1 0 0 1 100 450 Tm
-    /FCou 90 Tf
+    1 0 0 1 50 450 Tm
+    /FCou 50 Tf
     (Courier) Tj
 ET
 endstream
