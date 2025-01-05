@@ -20,9 +20,9 @@ endobj
             /BaseFont /Courier
             /Subtype /Type1
         >>
-        /F-Future <<
+        /F-Futura <<
             /Type /Font
-            /BaseFont /Future
+            /BaseFont /Futura
             /Subtype /Type1
         >>
     >>
@@ -53,7 +53,7 @@ endstream
 endobj
 
 %%%%        %%%%
-%%%% Future %%%%
+%%%% Futura %%%%
 %%%%        %%%%
 
 6 0 obj <<
@@ -69,7 +69,7 @@ endobj
 stream
 BT
     1 0 0 1 50 20 Tm
-    /F-Future 50 Tf
+    /F-Futura 50 Tf
     (Future) Tj
 ET
 endstream
