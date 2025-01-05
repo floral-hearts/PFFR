@@ -1,0 +1,62 @@
+%PDF-1.7
+
+1 0 obj <<
+    /Type /Catalog
+    /Pages 2 0 R
+>>
+endobj
+
+2 0 obj <<
+    /Type /Pages
+    /Count 1
+    /Kids [3 0 R]
+>>
+endobj
+
+
+%%%%
+%%%% AGaramond-Bold
+%%%%
+
+3 0 obj <<
+    /Type /Page
+    /MediaBox [0 0 612 90]
+    /Parent 2 0 R
+    /Resources 4 0 R
+    /Contents 5 0 R
+>>
+endobj
+
+4 0 obj <<
+    /Font <<
+        /FAG-B <<
+            /Type /Font
+            /BaseFont /AGaramond-Bold
+            /Subtype /Type1
+        >>
+    >>
+>>
+endobj
+
+5 0 obj <<
+>>
+stream
+BT
+    1 0 0 1 50 20 Tm
+    /FAG-B 50 Tf
+    (AGaramond-Bold) Tj
+ET
+endstream
+endobj
+
+xref
+
+trailer <<
+    /Root 1 0 R
+    /Size 6
+>>
+
+startxref
+0
+
+%%EOF
