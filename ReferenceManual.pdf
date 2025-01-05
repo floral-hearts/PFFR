@@ -24,6 +24,11 @@ endobj
 
 4 0 obj <<
     /Font <<
+        /FCou <<
+            /Type /Font
+            /BaseFont /Courier
+            /Subtype /Type1
+        >>
         /FHel <<
             /Type /Font
             /BaseFont /Helvetica
