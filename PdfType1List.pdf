@@ -8,7 +8,7 @@ endobj
 
 2 0 obj <<
     /Type /Pages
-    /Count 1
+    /Count 2
     /Kids [3 0 R 6 0 R]
 >>
 endobj
@@ -17,7 +17,7 @@ endobj
     /Font <<
         /F-Courier <<
             /Type /Font
-            /BaseFont /Futura
+            /BaseFont /Courier
             /Subtype /Type1
         >>
         /F-Future <<
@@ -47,14 +47,14 @@ stream
 BT
     1 0 0 1 50 20 Tm
     /F-Courier 50 Tf
-    (Couriera) Tj
+    (Courier) Tj
 ET
 endstream
 endobj
 
-%%%%         %%%%
-%%%% Courier %%%%
-%%%%         %%%%
+%%%%       %%%%
+%%%% Futre %%%%
+%%%%       %%%%
 
 6 0 obj <<
     /Type /Page
