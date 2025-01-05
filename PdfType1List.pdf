@@ -20,7 +20,7 @@ endobj
 
 3 0 obj <<
     /Type /Page
-    /MediaBox [0 0 612 100]
+    /MediaBox [0 0 612 90]
     /Parent 2 0 R
     /Resources 4 0 R
     /Contents 5 0 R
@@ -42,8 +42,8 @@ endobj
 >>
 stream
 BT
-    1 0 0 1 50 0 Tm
-    /FAG-B 10 Tf
+    1 0 0 1 50 70 Tm
+    /FAG-B 50 Tf
     (AGaramond-Bold) Tj
 ET
 endstream
