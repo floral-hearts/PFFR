@@ -9,7 +9,7 @@ endobj
 2 0 obj <<
     /Type /Pages
     /Count 1
-    /Kids [3 0 R]
+    /Kids [3 0 R 6 0 R]
 >>
 endobj
 
@@ -18,6 +18,11 @@ endobj
         /F-Courier <<
             /Type /Font
             /BaseFont /Futura
+            /Subtype /Type1
+        >>
+        /F-Future <<
+            /Type /Font
+            /BaseFont /Future
             /Subtype /Type1
         >>
     >>
@@ -46,6 +51,30 @@ BT
 ET
 endstream
 endobj
+
+%%%%         %%%%
+%%%% Courier %%%%
+%%%%         %%%%
+
+6 0 obj <<
+    /Type /Page
+    /MediaBox [0 0 600 90]
+    /Parent 2 0 R
+    /Resources 4 0 R
+    /Contents 7 0 R
+>>
+
+7 0 obj <<
+>>
+stream
+BT
+    1 0 0 1 50 20 Tm
+    /F-Future 50 Tf
+    (Future) Tj
+ET
+endstream
+endobj
+
 
 xref
 
