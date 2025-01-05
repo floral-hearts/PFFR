@@ -13,6 +13,11 @@ endobj
 >>
 endobj
 
+
+%%%%
+%%%% AGaramond-Bold
+%%%%
+
 3 0 obj <<
     /Type /Page
     /MediaBox [0 0 612 792]
@@ -24,29 +29,9 @@ endobj
 
 4 0 obj <<
     /Font <<
-        /FAGS <<
+        /FAG-B <<
             /Type /Font
             /BaseFont /AGaramond-Bold
-            /Subtype /Type1
-        >>
-        /FCou <<
-            /Type /Font
-            /BaseFont /Courier
-            /Subtype /Type1
-        >>
-        /FHel <<
-            /Type /Font
-            /BaseFont /Helvetica
-            /Subtype /Type1
-        >>
-        /FT-R <<
-            /Type /Font
-            /BaseFont /Times-Roman
-            /Subtype /Type1
-        >>
-        /FSim <<
-            /Type /Font
-            /BaseFont /Yu-Mincho
             /Subtype /Type1
         >>
     >>
@@ -58,11 +43,8 @@ endobj
 stream
 BT
     1 0 0 1 50 700 Tm
-    /FAGS 50 Tf
-    (AGaramond-Semilbold) Tj
-    1 0 0 1 50 640 Tm
-    /FCou 50 Tf
-    (Courier) Tj
+    /FAG-B 50 Tf
+    (AGaramond-Bold) Tj
 ET
 endstream
 endobj
