@@ -24,6 +24,11 @@ endobj
 
 4 0 obj <<
     /Font <<
+        /FAGS <<
+            /Type /Font
+            /BaseFont /AGaramond-Semilbold
+            /Subtype /Type1
+        >>
         /FCou <<
             /Type /Font
             /BaseFont /Courier
@@ -53,8 +58,11 @@ endobj
 stream
 BT
     1 0 0 1 100 550 Tm
-    /FSim 100 Tf
-    (Cuit) Tj
+    /FAGD 90 Tf
+    (AGaramond-Semilbold) Tj
+    1 0 0 1 100 450 Tm
+    /FCou 90 Tf
+    (Courier) Tj
 ET
 endstream
 endobj
