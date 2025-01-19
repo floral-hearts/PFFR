@@ -95,6 +95,11 @@ endobj
             /BaseFont /Devanagari-Sangam-MN
             /Subtype /Type1
         >>
+        /F-Didot <<
+            /Type /Font
+            /BaseFont /Didot
+            /Subtype /Type1
+        >>
         /F-Futura <<
             /Type /Font
             /BaseFont /Futura
@@ -132,7 +137,7 @@ endobj
         >>
         /F0 <<
             /Type /Font
-            /BaseFont /Didot
+            /BaseFont /DIN
             /Subtype /Type1
         >>
     >>
