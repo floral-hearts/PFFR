@@ -25,6 +25,11 @@ endobj
             /BaseFont /Futura
             /Subtype /Type1
         >>
+        /F-Times-Roman <<
+            /Type /Font
+            /BaseFont /Times-Roman
+            /Subtype /Type1
+        >>
     >>
 >>
 endobj
@@ -43,7 +48,7 @@ endobj
 stream
 BT
     1 0 0 1 50 600 Tm
-    /F-Futura 50 Tf
+    /F-Times-Roman 50 Tf
     (Cuit Reference Manual) Tj
 ET
 endstream
