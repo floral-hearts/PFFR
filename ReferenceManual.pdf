@@ -20,9 +20,9 @@ endobj
             /BaseFont /AGaramond-Bold
             /Subtype /Type1
         >>
-        /F-Future <<
+        /F-Futura <<
             /Type /Font
-            /BaseFont /Future
+            /BaseFont /Futura
             /Subtype /Type1
         >>
     >>
@@ -43,7 +43,7 @@ endobj
 stream
 BT
     1 0 0 1 50 600 Tm
-    /F-Future 50 Tf
+    /F-Futura 50 Tf
     (Cuit Reference Manual) Tj
 ET
 endstream
