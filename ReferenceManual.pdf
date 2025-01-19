@@ -115,6 +115,11 @@ endobj
             /BaseFont /Galvji
             /Subtype /Type1
         >>
+        /F-Grantha-Sangam-MN <<
+            /Type /Font
+            /BaseFont /Grantha-Sangam-MN
+            /Subtype /Type1
+        >>
         /F-Helvetica <<
             /Type /Font
             /BaseFont /Helvetica
@@ -147,7 +152,7 @@ endobj
         >>
         /F0 <<
             /Type /Font
-            /BaseFont /Grantha-Sangam-MN
+            /BaseFont /Helvetica-Neue
             /Subtype /Type1
         >>
     >>
