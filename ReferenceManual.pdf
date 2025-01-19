@@ -13,21 +13,7 @@ endobj
 >>
 endobj
 
-
-%%%%
-%%%% AGaramond-Bold
-%%%%
-
 3 0 obj <<
-    /Type /Page
-    /MediaBox [0 0 612 792]
-    /Parent 2 0 R
-    /Resources 4 0 R
-    /Contents 5 0 R
->>
-endobj
-
-4 0 obj <<
     /Font <<
         /F-AGaramond-Bold <<
             /Type /Font
@@ -35,6 +21,15 @@ endobj
             /Subtype /Type1
         >>
     >>
+>>
+endobj
+
+4 0 obj <<
+    /Type /Page
+    /MediaBox [0 0 612 792]
+    /Parent 2 0 R
+    /Resources 3 0 R
+    /Contents 5 0 R
 >>
 endobj
 
