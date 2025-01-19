@@ -65,6 +65,11 @@ endobj
             /BaseFont /Chalkboard-SE
             /Subtype /Type1
         >>
+        /F-Chalkduster <<
+            /Type /Font
+            /BaseFont /Chalkduster
+            /Subtype /Type1
+        >>
         /F-Courier <<
             /Type /Font
             /BaseFont /Courier
@@ -107,7 +112,7 @@ endobj
         >>
         /F0 <<
             /Type /Font
-            /BaseFont /Chalkduster
+            /BaseFont /Charter
             /Subtype /Type1
         >>
     >>
