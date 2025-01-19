@@ -150,6 +150,11 @@ endobj
             /BaseFont /Hiragino-Sans
             /Subtype /Type1
         >>
+        /F-Hoefler-Text <<
+            /Type /Font
+            /BaseFont /Hoefler-Text
+            /Subtype /Type1
+        >>
         /F-Impact <<
             /Type /Font
             /BaseFont /Impact
@@ -177,7 +182,7 @@ endobj
         >>
         /F0 <<
             /Type /Font
-            /BaseFont /Hoefler-Text
+            /BaseFont /Kailasa
             /Subtype /Type1
         >>
     >>
