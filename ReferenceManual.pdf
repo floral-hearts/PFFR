@@ -220,6 +220,11 @@ endobj
             /BaseFont /Menlo
             /Subtype /Type1
         >>
+        /F-Snell-Roundhand <<
+            /Type /Font
+            /BaseFont /Snell-Roundhand
+            /Subtype /Type1
+        >>
         /F-Times-Italic <<
             /Type /Font
             /BaseFont /Times-Italic
@@ -232,7 +237,7 @@ endobj
         >>
         /F0 <<
             /Type /Font
-            /BaseFont /Snell-Roundhand
+            /BaseFont /YuMincho
             /Subtype /Type1
         >>
     >>
