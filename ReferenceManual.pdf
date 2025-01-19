@@ -35,6 +35,11 @@ endobj
             /BaseFont /Helvetica
             /Subtype /Type1
         >>
+        /F-KozMinPr6N-Regular <<
+            /Type /Font
+            /BaseFont /KozMinPr6N-Regular
+            /Subtype /Type1
+        >>
         /F-Times-Italic <<
             /Type /Font
             /BaseFont /Times-Italic
@@ -63,7 +68,7 @@ endobj
 stream
 BT
     1 0 0 1 50 600 Tm
-    /F-Courier 50 Tf
+    /F-KozMinPr6N-Regular 50 Tf
     (Cuit Reference Manual) Tj
 ET
 endstream
