@@ -145,6 +145,11 @@ endobj
             /BaseFont /Hiragino-Mincho-Pro
             /Subtype /Type1
         >>
+        /F-Hiragino-Sans <<
+            /Type /Font
+            /BaseFont /Hiragino-Sans
+            /Subtype /Type1
+        >>
         /F-Impact <<
             /Type /Font
             /BaseFont /Impact
@@ -172,7 +177,7 @@ endobj
         >>
         /F0 <<
             /Type /Font
-            /BaseFont /Hiragino-Sans
+            /BaseFont /Hoefler-Text
             /Subtype /Type1
         >>
     >>
