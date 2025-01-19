@@ -110,6 +110,11 @@ endobj
             /BaseFont /Futura
             /Subtype /Type1
         >>
+        /F-Galvji <<
+            /Type /Font
+            /BaseFont /Galvji
+            /Subtype /Type1
+        >>
         /F-Helvetica <<
             /Type /Font
             /BaseFont /Helvetica
