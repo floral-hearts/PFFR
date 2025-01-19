@@ -50,6 +50,11 @@ endobj
             /BaseFont /Bodoni-72-Oldstyle
             /Subtype /Type1
         >>
+        /F-Bodoni-72-Smallcap <<
+            /Type /Font
+            /BaseFont /Bodoni-72-Smallcap
+            /Subtype /Type1
+        >>
         /F-Courier <<
             /Type /Font
             /BaseFont /Courier
