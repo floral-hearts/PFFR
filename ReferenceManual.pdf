@@ -35,6 +35,11 @@ endobj
             /BaseFont /Apple-SD-Gothic-Neo
             /Subtype /Type1
         >>
+        /F-Avenir <<
+            /Type /Font
+            /BaseFont /Avenir
+            /Subtype /Type1
+        >>
         /F-Courier <<
             /Type /Font
             /BaseFont /Courier
@@ -77,7 +82,7 @@ endobj
         >>
         /F0 <<
             /Type /Font
-            /BaseFont /Avenir
+            /BaseFont /Avenir-Next
             /Subtype /Type1
         >>
     >>
