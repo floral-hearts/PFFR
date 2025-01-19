@@ -185,6 +185,11 @@ endobj
             /BaseFont /Mukta-Mahee
             /Subtype /Type1
         >>
+        /F-Noteworthy <<
+            /Type /Font
+            /BaseFont /Noteworthy
+            /Subtype /Type1
+        >>
         /F-Times-Italic <<
             /Type /Font
             /BaseFont /Times-Italic
@@ -197,7 +202,7 @@ endobj
         >>
         /F0 <<
             /Type /Font
-            /BaseFont /Noteworthy
+            /BaseFont /Optima
             /Subtype /Type1
         >>
     >>
