@@ -100,6 +100,11 @@ endobj
             /BaseFont /Didot
             /Subtype /Type1
         >>
+        /F-Euphemia-UCAS <<
+            /Type /Font
+            /BaseFont /Chalkduster
+            /Subtype /Type1
+        >>
         /F-Futura <<
             /Type /Font
             /BaseFont /Futura
@@ -137,7 +142,7 @@ endobj
         >>
         /F0 <<
             /Type /Font
-            /BaseFont /Euphemia-UCAS
+            /BaseFont /Galvji
             /Subtype /Type1
         >>
     >>
