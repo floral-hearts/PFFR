@@ -60,6 +60,11 @@ endobj
             /BaseFont /Bradley-Hand
             /Subtype /Type1
         >>
+        /F-Chalkboard-SE <<
+            /Type /Font
+            /BaseFont /Chalkboard-SE
+            /Subtype /Type1
+        >>
         /F-Courier <<
             /Type /Font
             /BaseFont /Courier
@@ -102,7 +107,7 @@ endobj
         >>
         /F0 <<
             /Type /Font
-            /BaseFont /Chalkboard
+            /BaseFont /Chalkduster
             /Subtype /Type1
         >>
     >>
