@@ -20,6 +20,11 @@ endobj
             /BaseFont /AGaramond-Bold
             /Subtype /Type1
         >>
+        /F-Academy-Engraved-LET <<
+            /Type /Font
+            /BaseFont /Academy-Engraved-LET
+            /Subtype /Type1
+        >>
         /F-Courier <<
             /Type /Font
             /BaseFont /Courier
@@ -62,7 +67,7 @@ endobj
         >>
         /F0 <<
             /Type /Font
-            /BaseFont /Academy-Engraved-LET
+            /BaseFont /American-Typewriter
             /Subtype /Type1
         >>
     >>
