@@ -170,6 +170,11 @@ endobj
             /BaseFont /Khmer-Sangam-MN
             /Subtype /Type1
         >>
+        /F- Marker-Felt<<
+            /Type /Font
+            /BaseFont /Marker-Felt
+            /Subtype /Type1
+        >>
         /F-Menlo <<
             /Type /Font
             /BaseFont /Menlo
@@ -187,7 +192,7 @@ endobj
         >>
         /F0 <<
             /Type /Font
-            /BaseFont /Marker-Felt
+            /BaseFont /Mukta-Mahee
             /Subtype /Type1
         >>
     >>
