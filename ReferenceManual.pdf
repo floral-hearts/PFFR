@@ -195,6 +195,11 @@ endobj
             /BaseFont /Optima
             /Subtype /Type1
         >>
+        /F-Palatino <<
+            /Type /Font
+            /BaseFont /Palatino
+            /Subtype /Type1
+        >>
         /F-Times-Italic <<
             /Type /Font
             /BaseFont /Times-Italic
@@ -207,7 +212,7 @@ endobj
         >>
         /F0 <<
             /Type /Font
-            /BaseFont /Palatino
+            /BaseFont /Papyrus
             /Subtype /Type1
         >>
     >>
