@@ -240,11 +240,6 @@ endobj
             /BaseFont /Zapfino
             /Subtype /Type1
         >>
-        /F0 <<
-            /Type /Font
-            /BaseFont /Pristina
-            /Subtype /Type1
-        >>
     >>
 >>
 endobj
@@ -263,7 +258,7 @@ endobj
 stream
 BT
     1 0 0 1 50 600 Tm
-    /F0 40 Tf
+    /F-Futura 40 Tf
     (Cuit Reference Manual) Tj
 ET
 endstream
