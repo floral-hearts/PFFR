@@ -40,6 +40,11 @@ endobj
             /BaseFont /Impact
             /Subtype /Type1
         >>
+        /F-Kefa <<
+            /Type /Font
+            /BaseFont /Kefa
+            /Subtype /Type1
+        >>
         /F-Menlo <<
             /Type /Font
             /BaseFont /Menlo
