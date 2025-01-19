@@ -205,6 +205,11 @@ endobj
             /BaseFont /Menlo
             /Subtype /Type1
         >>
+        /F-Party-LET <<
+            /Type /Font
+            /BaseFont /Menlo
+            /Subtype /Type1
+        >>
         /F-Times-Italic <<
             /Type /Font
             /BaseFont /Times-Italic
@@ -217,7 +222,7 @@ endobj
         >>
         /F0 <<
             /Type /Font
-            /BaseFont /Party-LET
+            /BaseFont /Proxima-Nova
             /Subtype /Type1
         >>
     >>
