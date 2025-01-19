@@ -215,6 +215,11 @@ endobj
             /BaseFont /Rockwell
             /Subtype /Type1
         >>
+        /F-Savoye-LET <<
+            /Type /Font
+            /BaseFont /Menlo
+            /Subtype /Type1
+        >>
         /F-Times-Italic <<
             /Type /Font
             /BaseFont /Times-Italic
@@ -227,7 +232,7 @@ endobj
         >>
         /F0 <<
             /Type /Font
-            /BaseFont /Savoye-LET
+            /BaseFont /SimSong
             /Subtype /Type1
         >>
     >>
