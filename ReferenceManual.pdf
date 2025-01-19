@@ -29,7 +29,7 @@ endobj
 
 4 0 obj <<
     /Font <<
-        /FAG-B <<
+        /F-AGaramond-Bold <<
             /Type /Font
             /BaseFont /AGaramond-Bold
             /Subtype /Type1
@@ -43,8 +43,8 @@ endobj
 stream
 BT
     1 0 0 1 50 600 Tm
-    /FAG-B 50 Tf
-    (AGaramond-Bold) Tj
+    /F-AGaramond-Bold 50 Tf
+    (Cuit Reference Manual) Tj
 ET
 endstream
 endobj
