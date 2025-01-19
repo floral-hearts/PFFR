@@ -20,6 +20,11 @@ endobj
             /BaseFont /AGaramond-Bold
             /Subtype /Type1
         >>
+        /F-Future <<
+            /Type /Font
+            /BaseFont /Future
+            /Subtype /Type1
+        >>
     >>
 >>
 endobj
