@@ -35,6 +35,11 @@ endobj
             /BaseFont /Helvetica
             /Subtype /Type1
         >>
+        /F-Impact <<
+            /Type /Font
+            /BaseFont /Impact
+            /Subtype /Type1
+        >>
         /F-Menlo <<
             /Type /Font
             /BaseFont /Menlo
@@ -53,7 +58,7 @@ endobj
         /F0 <<
             /Type /Font
             /BaseFont /Impact
-            /Subtype /Type1
+            /Subtype /Kefa
         >>
     >>
 >>
