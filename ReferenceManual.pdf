@@ -70,6 +70,11 @@ endobj
             /BaseFont /Chalkduster
             /Subtype /Type1
         >>
+        /F-Charter <<
+            /Type /Font
+            /BaseFont /Charter
+            /Subtype /Type1
+        >>
         /F-Courier <<
             /Type /Font
             /BaseFont /Courier
@@ -112,7 +117,7 @@ endobj
         >>
         /F0 <<
             /Type /Font
-            /BaseFont /Charter
+            /BaseFont /Cochin
             /Subtype /Type1
         >>
     >>
