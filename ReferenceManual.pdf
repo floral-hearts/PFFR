@@ -25,6 +25,11 @@ endobj
             /BaseFont /Academy-Engraved-LET
             /Subtype /Type1
         >>
+        /F-American-Typewriter <<
+            /Type /Font
+            /BaseFont /American-Typewriter
+            /Subtype /Type1
+        >>
         /F-Courier <<
             /Type /Font
             /BaseFont /Courier
@@ -67,7 +72,7 @@ endobj
         >>
         /F0 <<
             /Type /Font
-            /BaseFont /American-Typewriter
+            /BaseFont /Apple-Color-Emoji
             /Subtype /Type1
         >>
     >>
