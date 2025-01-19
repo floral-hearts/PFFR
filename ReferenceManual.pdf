@@ -40,6 +40,11 @@ endobj
             /BaseFont /Avenir
             /Subtype /Type1
         >>
+        /F-Bodoni-72 <<
+            /Type /Font
+            /BaseFont /Bodoni-72
+            /Subtype /Type1
+        >>
         /F-Courier <<
             /Type /Font
             /BaseFont /Courier
@@ -82,7 +87,7 @@ endobj
         >>
         /F0 <<
             /Type /Font
-            /BaseFont /Bodoni-72
+            /BaseFont /Bodoni-72-Oldstyle
             /Subtype /Type1
         >>
     >>
