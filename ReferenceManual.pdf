@@ -80,6 +80,11 @@ endobj
             /BaseFont /Cochin
             /Subtype /Type1
         >>
+        /F-Copperplate <<
+            /Type /Font
+            /BaseFont /Copperplate
+            /Subtype /Type1
+        >>
         /F-Courier <<
             /Type /Font
             /BaseFont /Courier
@@ -122,7 +127,7 @@ endobj
         >>
         /F0 <<
             /Type /Font
-            /BaseFont /Copperplate
+            /BaseFont /Damascus
             /Subtype /Type1
         >>
     >>
