@@ -52,7 +52,7 @@ endobj
         >>
         /F0 <<
             /Type /Font
-            /BaseFont /Menlo
+            /BaseFont /SimSong
             /Subtype /Type1
         >>
     >>
@@ -73,7 +73,7 @@ endobj
 stream
 BT
     1 0 0 1 50 600 Tm
-    /F-Menlo 40 Tf
+    /F0 40 Tf
     (Cuit Reference Manual) Tj
 ET
 endstream
