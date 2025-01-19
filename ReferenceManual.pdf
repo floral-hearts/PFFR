@@ -55,6 +55,11 @@ endobj
             /BaseFont /Bodoni-72-Smallcap
             /Subtype /Type1
         >>
+        /F-Bradley-Hand <<
+            /Type /Font
+            /BaseFont /Bradley-Hand
+            /Subtype /Type1
+        >>
         /F-Courier <<
             /Type /Font
             /BaseFont /Courier
@@ -97,7 +102,7 @@ endobj
         >>
         /F0 <<
             /Type /Font
-            /BaseFont /Bradley-Hand
+            /BaseFont /Canela-Text
             /Subtype /Type1
         >>
     >>
