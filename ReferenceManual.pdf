@@ -200,6 +200,11 @@ endobj
             /BaseFont /Palatino
             /Subtype /Type1
         >>
+        /F-Papyrus <<
+            /Type /Font
+            /BaseFont /Menlo
+            /Subtype /Type1
+        >>
         /F-Times-Italic <<
             /Type /Font
             /BaseFont /Times-Italic
@@ -212,7 +217,7 @@ endobj
         >>
         /F0 <<
             /Type /Font
-            /BaseFont /Papyrus
+            /BaseFont /Party-LET
             /Subtype /Type1
         >>
     >>
