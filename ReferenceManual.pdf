@@ -75,6 +75,11 @@ endobj
             /BaseFont /Charter
             /Subtype /Type1
         >>
+        /F-Cochin <<
+            /Type /Font
+            /BaseFont /Cochin
+            /Subtype /Type1
+        >>
         /F-Courier <<
             /Type /Font
             /BaseFont /Courier
