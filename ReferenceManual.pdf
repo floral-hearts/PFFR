@@ -235,9 +235,14 @@ endobj
             /BaseFont /Times-Roman
             /Subtype /Type1
         >>
-        /F0 <<
+        /F-Zapfino <<
             /Type /Font
             /BaseFont /Zapfino
+            /Subtype /Type1
+        >>
+        /F0 <<
+            /Type /Font
+            /BaseFont /MS-Gothic
             /Subtype /Type1
         >>
     >>
