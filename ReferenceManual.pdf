@@ -125,6 +125,11 @@ endobj
             /BaseFont /Helvetica
             /Subtype /Type1
         >>
+        /F-Hiragino-Kaku-Gothic-Pro <<
+            /Type /Font
+            /BaseFont /Hiragino-Kaku-Gothic-Pro
+            /Subtype /Type1
+        >>
         /F-Impact <<
             /Type /Font
             /BaseFont /Impact
@@ -152,7 +157,7 @@ endobj
         >>
         /F0 <<
             /Type /Font
-            /BaseFont /Hiragino-Kaku-Gothic-Pro
+            /BaseFont /Hiragino-Kaku-Gothic-Std
             /Subtype /Type1
         >>
     >>
