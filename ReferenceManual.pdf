@@ -210,6 +210,11 @@ endobj
             /BaseFont /Menlo
             /Subtype /Type1
         >>
+        /F-Rockwell <<
+            /Type /Font
+            /BaseFont /Rockwell
+            /Subtype /Type1
+        >>
         /F-Times-Italic <<
             /Type /Font
             /BaseFont /Times-Italic
@@ -222,7 +227,7 @@ endobj
         >>
         /F0 <<
             /Type /Font
-            /BaseFont /Rockwell
+            /BaseFont /Savoye-LET
             /Subtype /Type1
         >>
     >>
