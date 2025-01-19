@@ -90,6 +90,11 @@ endobj
             /BaseFont /Courier
             /Subtype /Type1
         >>
+        /F-Devanagari-Sangam-MN <<
+            /Type /Font
+            /BaseFont /Devanagari-Sangam-MN
+            /Subtype /Type1
+        >>
         /F-Futura <<
             /Type /Font
             /BaseFont /Futura
@@ -127,7 +132,7 @@ endobj
         >>
         /F0 <<
             /Type /Font
-            /BaseFont /Devanagari-Sangam-MN
+            /BaseFont /Didot
             /Subtype /Type1
         >>
     >>
