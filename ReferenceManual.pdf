@@ -180,6 +180,11 @@ endobj
             /BaseFont /Menlo
             /Subtype /Type1
         >>
+        /F-Mukta-Mahee <<
+            /Type /Font
+            /BaseFont /Mukta-Mahee
+            /Subtype /Type1
+        >>
         /F-Times-Italic <<
             /Type /Font
             /BaseFont /Times-Italic
@@ -192,7 +197,7 @@ endobj
         >>
         /F0 <<
             /Type /Font
-            /BaseFont /Mukta-Mahee
+            /BaseFont /Noteworthy
             /Subtype /Type1
         >>
     >>
