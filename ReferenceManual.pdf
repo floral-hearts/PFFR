@@ -135,6 +135,11 @@ endobj
             /BaseFont /Hiragino-Kaku-Gothic-Std
             /Subtype /Type1
         >>
+        /F-Hiragino-Maru-Gothic-Pro <<
+            /Type /Font
+            /BaseFont /Hiragino-Kaku-Gothic-Pro
+            /Subtype /Type1
+        >>
         /F-Impact <<
             /Type /Font
             /BaseFont /Impact
@@ -162,7 +167,7 @@ endobj
         >>
         /F0 <<
             /Type /Font
-            /BaseFont /Hiragino-Maru-Gothic-Pro
+            /BaseFont /Hiragino-Maru-Gothic-Std
             /Subtype /Type1
         >>
     >>
