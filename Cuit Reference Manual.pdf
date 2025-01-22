@@ -18,14 +18,49 @@ endobj
 
 3 0 obj <<
   /Font <<
+    /FC <<
+      /Type /Font
+      /BaseFont /Courier
+      /Subtype /Type1
+    >>
+    /FCB <<
+      /Type /Font
+      /BaseFont /Courier-Bold
+      /Subtype /Type1
+    >>
+    /FCI <<
+      /Type /Font
+      /BaseFont /Courier-Italic
+      /Subtype /Type1
+    >>
     /FT <<
       /Type /Font
       /BaseFont /Times
       /Subtype /Type1
     >>
-    /FT1 <<
+    /FTB <<
       /Type /Font
-      /BaseFont /Times-Roman
+      /BaseFont /Times-Bold
+      /Subtype /Type1
+    >>
+    /FTI <<
+      /Type /Font
+      /BaseFont /Times-Italic
+      /Subtype /Type1
+    >>
+    /FH <<
+      /Type /Font
+      /BaseFont /Helvetica
+      /Subtype /Type1
+    >>
+    /FHB <<
+      /Type /Font
+      /BaseFont /Helvetica-Bold
+      /Subtype /Type1
+    >>
+    /FHI <<
+      /Type /Font
+      /BaseFont /Helvetica-Italic
       /Subtype /Type1
     >>
   >>
@@ -45,14 +80,8 @@ endobj
 >>
 stream
 BT
-  /FT 40 Tf
-  100 Tx
-  0.5 g
-  (Cuit Reference Manual) Tj
- % /FT 40 Tf
-  0 0 TD
-  1 g
-  1 Tr
+  /FC 50 Tf
+  450 200 Td
   (Cuit Reference Manual) Tj
 ET
 endstream
