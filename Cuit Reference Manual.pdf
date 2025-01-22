@@ -83,7 +83,7 @@ BT
   /FTB 50 Tf
   150 600 Td
   (Cuit) Tj
-  -50 0 TD
+  0 -50 TD
   (Refarence Manual) Tj
 ET
 endstream
