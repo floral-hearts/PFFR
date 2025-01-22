@@ -85,6 +85,9 @@ BT
   (Cuit) Tj
   0 -50 TD
   (Refarence Manual) Tj
+  100 100 m
+  100 100 150 100 150 050 c
+  150 050 150 000 100 000 c
 ET
 endstream
 endobj
