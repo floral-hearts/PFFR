@@ -82,7 +82,8 @@ stream
 BT
   /FTB 50 Tf
   150 600 Td
-  (Cuit Reference Manual) Tj
+  (Cuit) Tj T*
+  (Refarence Manual) Tj
 ET
 endstream
 endobj
