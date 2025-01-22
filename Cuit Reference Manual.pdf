@@ -82,7 +82,8 @@ stream
 BT
   /FTB 50 Tf
   150 600 Td
-  (Cuit) Tj T*
+  (Cuit) Tj
+  -50 0 TD
   (Refarence Manual) Tj
 ET
 endstream
