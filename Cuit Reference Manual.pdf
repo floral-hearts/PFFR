@@ -49,8 +49,8 @@ BT
   10 50 Td
   0.5 g
   (Cuit Reference Manual) Tj
-  /FT 40 Tf
-  10 50 Td
+ % /FT 40 Tf
+%  10 50 Td
   0.5 g
   (Cuit Reference Manual) Tj
 ET
