@@ -23,6 +23,11 @@ endobj
       /BaseFont /Times
       /Subtype /Type1
     >>
+    /FT1 <<
+      /Type /Font
+      /BaseFont /Times-Roman
+      /Subtype /Type1
+    >>
   >>
 >>
 endobj
@@ -42,6 +47,11 @@ stream
 BT
   /FT 40 Tf
   10 50 Td
+  0.5 g
+  (Cuit Reference Manual) Tj
+  /FT 40 Tf
+  10 50 Td
+  0.5 g
   (Cuit Reference Manual) Tj
 ET
 endstream
