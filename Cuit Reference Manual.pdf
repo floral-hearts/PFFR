@@ -83,7 +83,11 @@ BT
   /FTB 50 Tf
   150 600 Td
   (Cuit) Tj
-  0 -50 TD
+  10 0 Td
+  /FT 10 Tf
+  (for version 1. 0. 0.)
+  1 0 0 1 150 550
+  /FTB 50 Tf
   (Refarence Manual) Tj
   0 0 0 rg
   130 680 m
