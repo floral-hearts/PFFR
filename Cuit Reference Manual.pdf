@@ -51,7 +51,8 @@ BT
   (Cuit Reference Manual) Tj
  % /FT 40 Tf
   0 0 TD
-  0.5 g
+  1 g
+  1 Tr
   (Cuit Reference Manual) Tj
 ET
 endstream
