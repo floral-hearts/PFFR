@@ -24,9 +24,13 @@ endobj
 endobj
 
 3 1 obj <<
-  /Type /Font
-  /BaseFont /Times-Bold
-  /Subtype /Type1
+  /Font <<
+    /FT <<
+      /Type /Font
+      /BaseFont /Times
+      /Subtype /Type1
+    >>
+  >>
 >>
 endobj
 
@@ -34,23 +38,16 @@ endobj
   /Type /Page
   /MediaBox [0 0 612 792]
   /Parent 2 0 R
-  /Resources 5 0 R
-  /Contents 6 0 R
+  /Resources 3 0 R
+  /Contents 5 0 R
 >>
 endobj
 
 5 0 obj <<
-  /Font <<
-    /F0 3 1 R
-  >>
->>
-endobj
-
-6 0 obj <<
 >>
 stream
 BT
-  /F0 40 Tf
+  /FT 40 Tf
   10 50 Td
   (Cuit Reference Manual) Tj
 ET
