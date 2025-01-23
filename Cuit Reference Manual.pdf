@@ -83,7 +83,7 @@ BT
   /FTB 50 Tf
   150 600 Td
   (Cuit) Tj
-  /FT 20 Tf
+  /FT 25 Tf
   (   for version 1. 0. 0.) Tj
   1 0 0 1 150 550 Tm
   /FTB 50 Tf
@@ -101,6 +101,9 @@ BT
   130 505 115 505 115 520 c
   115 520 115 535 130 535 c f
   128 520 4 65 re f
+  1 0 0 1 170 300 Tm
+  /FTB 40 Tf
+  (floral-hearts) Tj
 ET
 endstream
 endobj
