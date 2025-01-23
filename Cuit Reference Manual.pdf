@@ -11,7 +11,7 @@ endobj
   /Pages <<
     /Type /Pages
     /Count 1
-    /Kids [4 0 R]
+    /Kids [4 0 R 6 0 R]
   >>
 >>
 endobj
@@ -104,6 +104,26 @@ BT
   1 0 0 1 230 120 Tm
   /FT 35 Tf
   (floral-hearts) Tj
+ET
+endstream
+endobj
+
+6 0 obj <<
+  /Type /Page
+  /MediaBox [0 0 612 792]
+  /Parent 2 0 R
+  /Resources 3 0 R
+  /Contents 7 0 R
+>>
+endobj
+
+7 0 obj <<
+>>
+stream
+BT
+  150 500 Tm
+  /FTB 50 Tf
+  (Table of Contents) Tj
 ET
 endstream
 endobj
