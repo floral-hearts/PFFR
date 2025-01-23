@@ -35,7 +35,7 @@ endobj
     >>
     /FT <<
       /Type /Font
-      /BaseFont /Times
+      /BaseFont /Times-Roman
       /Subtype /Type1
     >>
     /FTB <<
@@ -102,7 +102,7 @@ BT
   115 520 115 535 130 535 c f
   128 520 4 65 re f
   1 0 0 1 200 120 Tm
-  /FTB 35 Tf
+  /FH 35 Tf
   (floral-hearts) Tj
 ET
 endstream
