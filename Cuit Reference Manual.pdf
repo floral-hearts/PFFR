@@ -171,11 +171,16 @@ BT
   580 22 580 23 581 23 c f
   560 25 Td
   /FH 11 Tf
-  (1111) Tj
+  (0002) Tj
 
   1 0 0 1 60 700 Tm
   /FTB 35 Tf
   (Table of Contents) Tj
+  1 0 0 1 70 650 Tm
+  /FT 11 Tf
+  (Table of Contents) Tj
+  0 -11 Td
+  (Term) Tj
 ET
 endstream
 endobj
