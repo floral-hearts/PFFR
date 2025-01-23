@@ -127,9 +127,12 @@ BT
   /FTB 35 Tf
   (Table of Contents) Tj
   40 -50 Td
+  0.5 Tw
+  (IXIVI) Tj
   /FTB 15 Tf
+  5 0 Td
   (Table of Contents) Tj % 目次
-  0 -25 Td
+  -5 -25 Td
   (Overview) Tj % 概要
   0 -25 Td
   (Terms) Tj % 用語
@@ -144,9 +147,9 @@ BT
   0 -25 Td
   (Operator) Tj % 演算子
   0 -25 Td
-  (Syntax) % 構文
+  (Syntax) Tj % 構文
   0 -25 Td
-  (Data Type Creation) % データ型制作
+  (Data Type Creation) Tj % データ型制作
   0 -25 Td
   (Function) Tj % 関数
   0 -25 Td
