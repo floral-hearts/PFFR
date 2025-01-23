@@ -122,7 +122,8 @@ endobj
 stream
 BT
   563 35 m
-  563 40 l s
+  563 40 l
+  612 60 l s
   569 35 m
   569 40 l s
   575 35 m
@@ -131,10 +132,8 @@ BT
   581 40 l s
   560 25 Td
   /FH 11 Tf
-  4 Tr
-  0.5 g
   (0002) Tj
-  0 Tr
+
   1 0 0 1 60 700 Tm
   /FTB 35 Tf
   (Table of Contents) Tj
