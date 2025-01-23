@@ -121,7 +121,10 @@ endobj
 >>
 stream
 BT
-  60 700 Td
+  650 10 Td
+  /FC 10 Tf
+  (0002) Tj
+  1 0 0 1 60 700 Tm
   /FTB 35 Tf
   (Table of Contents) Tj
 ET
