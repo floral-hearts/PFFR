@@ -192,8 +192,9 @@ BT
   0 -25 Td
   (Pre-process) Tj
   0 -25 Td
-  (Post-precess) Tj T*
-  (Built-in process) Tj T*
+  (Post-precess) Tj
+  0 -25 Td
+  (Built-in process) Tj
 ET
 endstream
 endobj
