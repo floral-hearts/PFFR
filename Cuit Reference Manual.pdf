@@ -2,7 +2,7 @@
 %????
 
 1 0 obj <<
-  /Title (Cuit Reference Manual)
+  /Title (Cuit Source Code Reference Manual)
 >>
 endobj
 
@@ -82,7 +82,7 @@ stream
 BT
   /FTB 50 Tf
   150 600 Td
-  (Cuit) Tj
+  (Cuit Source Code) Tj
   /FT 25 Tf
   (   for version 1. 0. 0.) Tj
   1 0 0 1 150 550 Tm
@@ -128,25 +128,35 @@ BT
   (Table of Contents) Tj
   40 -50 Td
   /FTB 15 Tf
-  (I Table of Contents) Tj
+  (Table of Contents) Tj % 目次
   0 -25 Td
-  (II Overview) Tj
+  (Overview) Tj % 概要
   0 -25 Td
-  (IITerms) Tj
+  (Terms) Tj % 用語
   0 -25 Td
-  (III Execution order) Tj
+  (Execution order) Tj % 実行順序
   0 -25 Td
-  (IV Data) Tj
+  (Resistor) Tj % 抵抗プロセス
   0 -25 Td
-  (V Syntax) Tj
+  (Combined Resistor) Tj % 合成抵抗プロセス
   0 -25 Td
-  (VI Operator) Tj
+  (Data Storage) Tj % データ保管
   0 -25 Td
-  (VII Pre-process) Tj
+  (Operator) Tj % 演算子
   0 -25 Td
-  (VIIIPost-precess) Tj
+  (Syntax) % 構文
   0 -25 Td
-  (IX Built-in process) Tj
+  (Data Type Creation) % データ型制作
+  0 -25 Td
+  (Function) Tj % 関数
+  0 -25 Td
+  (Exception Handling) Tj % 例外処理
+  0 -25 Td
+  (Pre-process) Tj % 前処理
+  0 -25 Td
+  (Post-precess) Tj % 後処理
+  0 -25 Td
+  (Built-in process) Tj % 組み込み処理
 ET
 endstream
 endobj
