@@ -101,8 +101,8 @@ BT
   130 505 115 505 115 520 c
   115 520 115 535 130 535 c f
   128 520 4 65 re f
-  1 0 0 1 200 120 Tm
-  /FH 35 Tf
+  1 0 0 1 210 120 Tm
+  /FT 35 Tf
   (floral-hearts) Tj
 ET
 endstream
