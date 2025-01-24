@@ -213,7 +213,7 @@ BT
   60 700 Td
   /FTB 35 Tf
   (II Overview) Tj
-  40 50 Td
+  40 -50 Td
   /FT 11 Tf
   15 TL
   (    This is the Cuit Source Code Reference Manual. `Cuit' is new executable file format. And `Cuit Source Code'() is compiled to become `Cuit') Tj T*
