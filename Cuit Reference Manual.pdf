@@ -130,7 +130,10 @@ BT
   /FTB 15 Tf
   (I) Tj
   35 0 Td
-  (Table of Contents ................. 2) Tj % 目次
+  (Table of Contents) Tj % 目次
+  /FT 15 Tf
+  10 0 TD
+  (..................................................) Tj
   -35 -25 Td
   (II) Tj
   35 0 Td
