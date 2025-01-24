@@ -83,10 +83,7 @@ BT
   /FTB 50 Tf
   150 600 Td
   (Cuit Source Code) Tj
-  /FT 25 Tf
-  (   for version 1. 0. 0.) Tj
-  1 0 0 1 150 550 Tm
-  /FTB 50 Tf
+  0 -50 Td
   (Refarence Manual) Tj
   0 0 0 rg
   130 680 m 130 680 145 680 145 665 c 145 665 145 650 130 650 c 130 650 115 650 115 665 c 115 665 115 680 130 680 c f 128 665 4 -65 re f
