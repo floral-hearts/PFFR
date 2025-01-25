@@ -2,7 +2,7 @@
 %????
 
 1 0 obj <<
-  /Title (Cuit Source Code Reference Manual)
+  /Title (Cuit Reference Manual)
 >>
 endobj
 
@@ -82,12 +82,12 @@ stream
 BT
   /FTB 50 Tf
   150 600 Td
-  (Cuit Source Code) Tj
+  (Cuit) Tj
   0 -50 Td
   (Refarence Manual) Tj
   200 -40 Td
   /FT 30 Tf
-  (for version 1.0.0.) Tj
+  (for version 1) Tj
   0 0 0 rg
   130 680 m 130 680 145 680 145 665 c 145 665 145 650 130 650 c 130 650 115 650 115 665 c 115 665 115 680 130 680 c f 128 665 4 -65 re f
   130 535 m 130 535 145 535 145 520 c 145 520 145 505 130 505 c 130 505 115 505 115 520 c 115 520 115 535 130 535 c f 128 520 4 65 re f
@@ -216,8 +216,7 @@ BT
   40 -50 Td
   /FT 11 Tf
   15 TL
-  (    This is the Cuit Source Code Reference Manual. `Cuit' is new executable file format. And) Tj T*
-  (`Cuit Source Code'() is compiled to become `Cuit') Tj T*
+  (    This is the Cuit Reference Manual. `Cuit' is new document file format. It is a free format that can be easily edited. You can also handle all functions for free. Please use it.) Tj T*
 ET
 endstream
 endobj
