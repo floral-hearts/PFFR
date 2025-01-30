@@ -2,7 +2,7 @@
 %????
 
 1 0 obj <<
-  /Title (Cuit Reference Manual)
+  /Title (PFFR Reference Manual)
 >>
 endobj
 
@@ -83,7 +83,7 @@ BT
   /FTB 50 Tf
   150 600 Td
   50 TL
-  (Cuit) Tj T*
+  (PFFR) Tj T*
   (Refarence Manual) Tj
   245 -40 Td
   /FT 30 Tf
@@ -220,7 +220,7 @@ BT
   (that can be easily edited. You can also handle all functions for free. Please use it.) Tj T*
   () Tj T*
   (    Cuit file can be separated by 3 newlines. The 1st division is writed the file infomations;) Tj T*
-  (name, auther, date, and so on. 2nd division writed the processes which many pages used by.) Tj T*
+  (name, auther, date, and so on. 2nd division writed the processes which many pages used by. it is looks like c lang function. 3nd division writed the fonts.) Tj T*
 ET
 endstream
 endobj
