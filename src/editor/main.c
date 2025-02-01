@@ -1,4 +1,7 @@
 #include <windows.h>
+#include <stdlib.h>
+
+LRESULT CALLBACK WndProc(HWND hw, UINT msg, WPARAM wParam, LPARAM lParam);
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR psCmdLine, int nCmdShow) {
     WNDCLASS pffrWndInfo;
@@ -6,7 +9,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR psCmdLine,
     MSG msg;
 
     pffrWndInfo.style = CS_HREDRAW | CS_VREDRAW;
-    pffrWndInfo.lpfnWndProc = DefWindowProc;
+    pffrWndInfo.lpfnWndProc = WndProc;
     pffrWndInfo.cbClsExtra = 0;
     pffrWndInfo.cbWndExtra = 0;
     pffrWndInfo.hInstance = hInstance;
@@ -19,11 +22,10 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR psCmdLine,
         return 1;
     }
 
-    pffrWnd = CreateWindowEx(
-        WS_EX_TOOLWINDOW,
+    pffrWnd = CreateWindow(
         TEXT("pffrWndInfo"),
         TEXT("pffr"),
-        WS_CAPTION | WS_SYSMENU | WS_THICKFRAME,
+        WS_CAPTION | WS_SYSMENU | WS_THICKFRAME | WS_MAXIMIZEBOX | WS_MINIMIZEBOX,
         100, 100, 200, 200,
         NULL,
         NULL,
@@ -37,10 +39,18 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR psCmdLine,
     ShowWindow(pffrWnd, SW_SHOW);
 
     while(1) {
-        GetMessage(&msg, pffrWnd, 0, 0);
-        if(msg.message == WM_LBUTTONUP) break;
+        GetMessage(&msg, NULL, 0, 0);
         DispatchMessage(&msg);
     }
 
     return MessageBox(NULL, TEXT("fin"), TEXT("pause"), MB_YESNO) == IDYES ? 0 : 1;
+}
+
+LRESULT CALLBACK WndProc(HWND hw, UINT msg, WPARAM wParam, LPARAM lParam) {
+    if (msg == WM_LBUTTONUP) {
+		MessageBox(hw , TEXT("終わるにゃん") ,
+			 TEXT("Kitty") , MB_ICONINFORMATION);
+		exit(0);
+	}
+    return DefWindowProc(hw, msg, wParam, lParam);
 }
