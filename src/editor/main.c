@@ -4,31 +4,29 @@
 
 #include <windows.h>
 
-LRESULT CALLBACK WndProc(HWND hw, UINT msg, WPARAM wParam, LPARAM lParam);
+LRESULT CALLBACK ExitProc(HWND hw, UINT msg, WPARAM wParam, LPARAM lParam);
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR psCmdLine, int nCmdShow) {
-    WNDCLASS wcStage;
+    WNDCLASS wcStage = { 0 };
     HWND wStage;
     MSG msg;
 
     wcStage.style = CS_HREDRAW | CS_VREDRAW;
-    wcStage.lpfnWndProc = WndProc;
-    wcStage.cbClsExtra = 0;
-    wcStage.cbWndExtra = 0;
+    wcStage.lpfnWndProc = ExitProc;
     wcStage.hInstance = hInstance;
     wcStage.hIcon = LoadIcon(NULL, IDI_APPLICATION);
     wcStage.hCursor = LoadCursor(NULL, IDC_ARROW);
     wcStage.hbrBackground = GetStockObject(NULL_BRUSH);
     wcStage.lpszMenuName = NULL;
-    wcStage.lpszClassName = TEXT("pffrWndInfo");
+    wcStage.lpszClassName = TEXT("wcStage");
     if(!RegisterClass(&pffrWndInfo)) {
         MessageBox(NULL, TEXT("create pffrWndInfo"), TEXT("ERROR"), MB_OK | MB_ICONERROR);
         return 1;
     }
 
     wStage = CreateWindow(
-        TEXT("pffrWndInfo"),
-        TEXT("pffr"),
+        TEXT("wcStage"),
+        TEXT("Stage"),
 #if TYPE1
     	WS_POPUP,
 #elif TYPE2
