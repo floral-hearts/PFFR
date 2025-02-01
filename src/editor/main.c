@@ -16,6 +16,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR psCmdLine,
     pffrWndInfo.hIcon = LoadIcon(NULL, IDI_APPLICATION);
     pffrWndInfo.hCursor = LoadCursor(NULL, IDC_ARROW);
     pffrWndInfo.hbrBackground = GetStockObject(NULL_BRUSH);
+    pffrWndInfo.lpszMenuName = NULL;
     pffrWndInfo.lpszClassName = TEXT("pffrWndInfo");
     if(!RegisterClass(&pffrWndInfo)) {
         MessageBox(NULL, TEXT("create pffrWndInfo"), TEXT("ERROR"), MB_OK | MB_ICONERROR);
@@ -38,19 +39,21 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR psCmdLine,
     }
     ShowWindow(pffrWnd, SW_SHOW);
 
-    while(1) {
-        GetMessage(&msg, NULL, 0, 0);
+    while(GetMessage(&msg, NULL, 0, 0)) {
         DispatchMessage(&msg);
     }
 
-    return MessageBox(NULL, TEXT("fin"), TEXT("pause"), MB_YESNO) == IDYES ? 0 : 1;
+    return MessageBox(NULL, TEXT("fin"), TEXT("pause"), MB_YESNO) == IDYES ? msg.wParam : 1;
 }
 
-LRESULT CALLBACK WndProc(HWND hw, UINT msg, WPARAM wParam, LPARAM lParam) {
-    if (msg == WM_LBUTTONUP) {
-		MessageBox(hw , TEXT("終わるにゃん") ,
-			 TEXT("Kitty") , MB_ICONINFORMATION);
-		exit(0);
+LRESULT CALLBACK WndProc(HWND hw, UINT msg, WPARAM wp, LPARAM lp) {
+    switch (msg) {
+    case WM_DESTROY:
+        PostQuitMessage(0);
+        return 0;
+    case WM_RBUTTONUP:
+        PostQuitMessage(0);
+        return 0;
 	}
-    return DefWindowProc(hw, msg, wParam, lParam);
+    return DefWindowProc(hw, msg, wp, lp);
 }
