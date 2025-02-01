@@ -4,6 +4,8 @@
 
 #include <windows.h>
 
+DWORD escDownTime = 0;
+
 LRESULT CALLBACK ExitProc(HWND hw, UINT msg, WPARAM wParam, LPARAM lParam);
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR psCmdLine, int nCmdShow) {
@@ -50,20 +52,23 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR psCmdLine,
     ShowWindow(pffrWnd, SW_SHOW);
 
     while(GetMessage(&msg, NULL, 0, 0)) {
+	    TranslateMessage(&msg);
         DispatchMessage(&msg);
     }
 
-    return MessageBox(NULL, TEXT("fin"), TEXT("pause"), MB_YESNO) == IDYES ? msg.wParam : 1;
+    return msg.wPara;
 }
 
 LRESULT CALLBACK WndProc(HWND hw, UINT msg, WPARAM wp, LPARAM lp) {
-    switch (msg) {
-    case WM_DESTROY:
+    if(msg == WM_DESTROY) {
         PostQuitMessage(0);
         return 0;
-    case WM_RBUTTONUP:
-        PostQuitMessage(0);
-        return 0;
+	}
+	if(msg == WM_KEYDOWN) {
+		escDownTime = GetTickCount();
+	} else if(msg == WM_CHAR && wp == 0x1b && (GetTickCount() - escDownTime) >= 3) {
+		PostQuitMessage(0);
+		return 0;
 	}
     return DefWindowProc(hw, msg, wp, lp);
 }
