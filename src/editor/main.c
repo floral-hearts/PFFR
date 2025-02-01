@@ -1,32 +1,43 @@
+#define TYPE1 0
+#define TYPE2 1
+#define TYPE3 0
+
 #include <windows.h>
-#include <stdlib.h>
 
 LRESULT CALLBACK WndProc(HWND hw, UINT msg, WPARAM wParam, LPARAM lParam);
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR psCmdLine, int nCmdShow) {
-    WNDCLASS pffrWndInfo;
-    HWND pffrWnd;
+    WNDCLASS wcStage;
+    HWND wStage;
     MSG msg;
 
-    pffrWndInfo.style = CS_HREDRAW | CS_VREDRAW;
-    pffrWndInfo.lpfnWndProc = WndProc;
-    pffrWndInfo.cbClsExtra = 0;
-    pffrWndInfo.cbWndExtra = 0;
-    pffrWndInfo.hInstance = hInstance;
-    pffrWndInfo.hIcon = LoadIcon(NULL, IDI_APPLICATION);
-    pffrWndInfo.hCursor = LoadCursor(NULL, IDC_ARROW);
-    pffrWndInfo.hbrBackground = GetStockObject(NULL_BRUSH);
-    pffrWndInfo.lpszMenuName = NULL;
-    pffrWndInfo.lpszClassName = TEXT("pffrWndInfo");
+    wcStage.style = CS_HREDRAW | CS_VREDRAW;
+    wcStage.lpfnWndProc = WndProc;
+    wcStage.cbClsExtra = 0;
+    wcStage.cbWndExtra = 0;
+    wcStage.hInstance = hInstance;
+    wcStage.hIcon = LoadIcon(NULL, IDI_APPLICATION);
+    wcStage.hCursor = LoadCursor(NULL, IDC_ARROW);
+    wcStage.hbrBackground = GetStockObject(NULL_BRUSH);
+    wcStage.lpszMenuName = NULL;
+    wcStage.lpszClassName = TEXT("pffrWndInfo");
     if(!RegisterClass(&pffrWndInfo)) {
         MessageBox(NULL, TEXT("create pffrWndInfo"), TEXT("ERROR"), MB_OK | MB_ICONERROR);
         return 1;
     }
 
-    pffrWnd = CreateWindow(
+    wStage = CreateWindow(
         TEXT("pffrWndInfo"),
         TEXT("pffr"),
-        WS_CAPTION | WS_SYSMENU | WS_THICKFRAME | WS_MAXIMIZEBOX | WS_MINIMIZEBOX,
+#if TYPE1
+    	WS_POPUP,
+#elif TYPE2
+	    WS_OVERLAPPEDWINDOW & ~WS_CAPTION,
+#elif TYPE3
+    	(WS_OVERLAPPED | WS_CAPTION | WS_SYSMENU) & ~WS_CAPTION,
+#else
+		WS_OVERLAPPED | WS_SYSMENU
+#endif
         100, 100, 200, 200,
         NULL,
         NULL,
@@ -37,6 +48,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR psCmdLine,
         MessageBox(NULL, TEXT("create pffrWndInfo"), TEXT("ERROR"), MB_OK | MB_ICONERROR);
         return 1;
     }
+
     ShowWindow(pffrWnd, SW_SHOW);
 
     while(GetMessage(&msg, NULL, 0, 0)) {
