@@ -98,4 +98,9 @@ LRESULT CALLBACK ExitButtonProc(HWND hw, UINT msg, WPARAM wParam, LPARAM lParam)
         PostQuitMessage(0);
         return 0;
     }
+    if(msg == WM_DESTROY) {
+        PostQuitMessage(0);
+        return 0;
+    }
+    return ExitProc(hw, msg, wParam, lParam);
 }
