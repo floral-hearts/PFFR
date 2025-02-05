@@ -22,13 +22,13 @@ endobj
   /Font <<
     /F0 <<
       /Type /Font
-      /BaseFont /KozMinPr6N-Regular
+      /BaseFont /SimSun
       /Subtype /Type0
       /Encoding /90ms-RKSJ-H
       /DescendantFonts <<
         /Type /Font
         /Subtype /CIDFontType0
-        /BaseFont /KizMinPr6N-Regular
+        /BaseFont /SimSun
         /CIDSystemInfo <<
           /Registry (Adobe)
           /Ordering (Japan1)
@@ -36,7 +36,7 @@ endobj
         >>
         /FontDescriptor <<
   /Type /FontDescriptor
-  /FontName /KozMinPr6N-Regular
+  /FontName /SimSun
   /Flags 4
   /FontBBox [-437 -340 1147 1317]
   /ItalicAngle 0
