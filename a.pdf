@@ -1,0 +1,53 @@
+%PDF
+
+1 0 obj <<
+  /Type /Catalog
+  /Pages <<
+    /Type /Pages
+    /Count 1
+    /Kids [
+      <<
+        /Type /Pages
+        /MediaBox [0 0 595 842]
+        /Parent 1 0 R
+        /Resources 2 0 R
+        /Contents 3 0 R
+      >>
+    ]
+  >>
+>>
+endobj
+
+2 0 obj <<
+  /Font <<
+    /F0 <<
+      /Type /Font
+      /BaseFont /SimSun
+      /Subtype /Type0
+      /Encoding /90ms-RKSJ-H
+      /DescendantFonts <<
+        /Type /Font
+        /Subtype /CIDFontType0
+        /BaseFont /SimSun
+        /CIDSystemInfo <<
+          /Registry (Adobe)
+          /Ordering (Japan1)
+          /Supplement 6
+        >>
+      >>
+    >>
+  >>
+>>
+
+3 0 obj <<
+>>
+stream
+BT
+  /F0 36 Tf
+  50 770 Td
+  <6162632082a082a282a4> Tj
+ET
+endstream
+endobj
+
+%%EOF
